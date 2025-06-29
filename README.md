@@ -12,6 +12,36 @@ Every change includes comments to help you understand.
 ![✅ Compatible](https://img.shields.io/badge/Microsoft%20Windows-Ready-green?longCache=true&style=for-the-badge)
 ![✅ Compatible](https://img.shields.io/badge/Linux-Ready-green?longCache=true&style=for-the-badge)
 
+## 🚀 Get Started with the Template
+
+Follow these steps to get the Cherry Desktop Template up and running:
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/infiniteHQ/CherryDesktopTemplate
+```
+
+### 2. Install repository submodules
+```bash
+git submodule update --init --recursive
+```
+
+### 3. Build the template
+On Linux:
+```bash
+bash build.sh
+```
+On Windows:
+```bash
+build.bat
+```
+
+### 4. Run the sample
+./build/bin/hello
+
 ## What you will have in this template:
 - ✅ Build configurations  
 - ✅ Sample working source code  
