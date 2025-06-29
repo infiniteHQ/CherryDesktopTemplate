@@ -40,7 +40,9 @@ build.bat
 ```
 
 ### 4. Run the sample
+``` bash
 ./build/bin/hello
+```
 
 ## What you will have in this template:
 - ✅ Build configurations  
